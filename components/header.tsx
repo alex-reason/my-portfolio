@@ -7,17 +7,16 @@ import { navLinks } from "@/lib/data";
 
 export default function Header() {
     const { activeSection, setActiveSection, setTimeLastClicked } = useActiveSecContext();
-
-    const containerClassName = "fixed top-0 left-1/2 h-[4.5rem] w-full rounded-none border bg-white border-white border-opacity-80 shadow-lg shadow-black/[0.03] backdrop-blur-[0.5rem] sm:top-6 sm:h-[3.25rem] sm:w-[36rem] sm:rounded-full";
-    const navClassName = "flex fixed w-[70%] sm:w-[initial] top-[0.15rem] left-1/2 h-12 -translate-x-1/2 py-2 sm:top-[1.9rem] sm:h-[initial] sm:py-0";
-    const ulListClassName = "flex flex-wrap items-center justify-center gap-y-1 text-[.9rem] font-medium text-gray-600 sm:w-[initial] sm:flex-nowrap sm:gap-5";
-    const linkClassName = "flex w-full items-center justify-center px-3 py-2 hover:text-gray-950 sm:hover:bg-[#fdfbe3] sm:hover:rounded-full";
-    const activeLinkClassName = "bg-[#fdfbe3] text-gray-950 sm:rounded-full";
-
     const handleLink = (name: SectionName) => {
         setActiveSection(name);
-        setTimeLastClicked(Date.now())
-    }
+        setTimeLastClicked(Date.now());
+    };
+
+    const containerClassName = "fixed top-0 sm:top-6 left-1/2 h-[5.5rem] sm:h-[3.25rem] w-full sm:w-[37rem] rounded-none border bg-[#fcfcfc] dark:bg-gray-800 border-[#fcfcfc] border-opacity-80 shadow-lg shadow-black/[0.03] backdrop-blur-[0.5rem] sm:rounded-full";
+    const navClassName = "flex fixed w-[80%] sm:w-[initial] top-[0.15rem] left-1/2 h-14 -translate-x-1/2 py-2 sm:top-[1.9rem] sm:h-[initial] sm:py-0";
+    const ulListClassName = "flex flex-wrap items-center justify-center gap-y-1 text-[.9rem] font-medium text-gray-600 sm:w-[initial] sm:flex-nowrap sm:gap-5";
+    const linkClassName = "flex w-full items-center justify-center px-3 py-2 dark:text-gray-200 hover:text-gray-950 sm:hover:bg-[#fdfbe3] sm:hover:dark:bg-gray-700 sm:hover:rounded-full";
+    const activeLinkClassName = "underline underline-offset-4 sm:no-underline sm:bg-[#fffbd1] sm:dark:bg-gray-700 dark:text-[#fffbd1] text-gray-900 sm:rounded-full";
 
     return (
         <header className="z-[99] relative">
@@ -31,11 +30,10 @@ export default function Header() {
                 <ul className={ulListClassName}>
                     {navLinks.map(link => (
                         <motion.li
-                            className="h-3/4 flex items-center justify-center"
+                            className="h-3/4 flex-centered"
                             key={link.name}
                             initial={{ y: -100, opacity: 0 }}
                             animate={{ y: 0, opacity: 1 }}
-
                         >
                             <Link
                                 href={link.hash}
@@ -49,7 +47,7 @@ export default function Header() {
                                         stiffness: 380,
                                         damping: 30
                                     }}
-                                    className={`${activeSection === link.name ? activeLinkClassName : 'bg-white'}`}
+                                    className={`${activeSection === link.name ? activeLinkClassName : "bg-[#fcfcfc]"}`}
                                 ></motion.span>
                             </Link>
                         </motion.li>

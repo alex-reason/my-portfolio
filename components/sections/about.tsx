@@ -6,7 +6,7 @@ import SectionHeading from "../section-heading";
 export default function About() {
     const { ref } = useSectionInView("About", { threshold: 0.75 })
     const pClassName = "mb-4 text-sm sm:text-lg !leading-8";
-    const aboutSecClassName = "flex flex-col items-center max-w-[35rem] text-center font-normal";
+    const aboutSecClassName = "flex flex-col items-center max-w-[35rem] mx-12 sm:mx-auto text-center font-normal";
 
     return (
         <motion.section

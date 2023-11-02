@@ -1,11 +1,7 @@
-import React from "react"
+import type { HeadingProps } from "@/lib/types"
 
-type SectionHeadingProps = {
-    children: React.ReactNode;
-};
-
-export default function SectionHeading({ children }: SectionHeadingProps) {
+export default function SectionHeading({ children }: HeadingProps) {
     return (
-        <h2 className="text-3xl mb-8 font-medium capitalize text-center">{children}</h2>
+        <h2 className="text-3xl mb-8 font-bold capitalize text-center">{children}</h2>
     )
 };

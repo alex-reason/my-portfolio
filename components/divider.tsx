@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 
 export default function Divider() {
-    const divDots = "bg-gray-300 h-2 my-4 rounded-full"
+    const divDots = "bg-gray-300 h-2 my-2 rounded-full"
     return (
         <motion.div
             className="my-24 h-16 w-1 hidden sm:block"

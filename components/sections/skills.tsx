@@ -11,7 +11,7 @@ export default function Skills() {
   return (
     <section id="skills" ref={ref} className="max-w-[60rem]">
       <SectionHeading>Skills</SectionHeading>
-      <div className="sm:grid sm:grid-cols-2 sm:gap-3">
+      <div className="sm:grid sm:grid-cols-2 sm:gap-2 sm:-mt-5">
         {skillsData.map((item, index) => (
           <React.Fragment key={index}>
             <Skill {...item} />

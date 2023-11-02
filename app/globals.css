@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-section{
+section {
     @apply scroll-mt-28 my-10;
+}
+
+html {
+    --line-color: #f2f4f6;
+}
+
+.borderBlack {
+    @apply border border-black/10;
+}
+
+.flex-centered {
+    @apply flex items-center justify-center 
 }

@@ -1,14 +1,22 @@
 "use client"
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { BsArrowRight } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
-import Image from "next/image";
-import Button from "../button";
+import { useActiveSecContext } from "@/context/active-sec-context";
 import { useSectionInView } from "@/lib/hooks";
+import type { SectionName } from "@/lib/types";
+import Button from "@/components/button";
+
 
 export default function Introduction() {
-    const { ref } = useSectionInView('Home');
+    const { ref } = useSectionInView("Home");
+    const { setActiveSection, setTimeLastClicked } = useActiveSecContext();
+    const handleLink = (name: SectionName) => {
+        setActiveSection(name);
+        setTimeLastClicked(Date.now());
+    };
 
     return (
         <section className="mb-28 max-w-[50rem] text-center sm:mb-0 z-[90]" id="home" ref={ref}>
@@ -45,7 +53,7 @@ export default function Introduction() {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.1 }}
                 >
-                    <Button url="#contact" type="primary">
+                    <Button url="#contact" type="primary" onClick={() => handleLink("Contact")}>
                         Contact me
                         <BsArrowRight />{" "}
                     </Button>
