@@ -28,14 +28,14 @@ export default function RootLayout({
           className='bg-[#fffbd1] absolute rounded-full blur-[10rem]
           top-[-6rem] right-[15rem]
           h-[60rem] w-[31.25rem]
-         z-[-10] dark:hidden'
+       dark:hidden'
         />
         <div
           className='bg-[#ffd8ce] absolute rounded-full blur-[10rem]
           top-[-6rem] left-[-15rem]
           h-[60rem] w-[31.25rem]
           md:left-[0rem] lg:left-[1rem]
-         z-[-10] dark:hidden'
+        dark:hidden'
         />
 
         <ThemeContextProvider>
