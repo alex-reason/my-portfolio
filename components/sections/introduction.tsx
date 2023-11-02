@@ -57,11 +57,11 @@ export default function Introduction() {
                         Contact me
                         <BsArrowRight />{" "}
                     </Button>
-
-                    <Button url="#contact" type="secondary">
+{/* 
+                    <Button url="/" type="secondary">
                         Download CV
                         <HiDownload />{" "}
-                    </Button>
+                    </Button> */}
 
                     <Button url="https://www.linkedin.com/in/alexandra-reasonda/" type="minor" target="_blank">
                         <FaLinkedin />
