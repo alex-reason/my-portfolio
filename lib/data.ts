@@ -13,6 +13,7 @@ import certIcon5 from "./cert-icons/Stuck at Home - Monitor.png"
 import certIcon6 from "./cert-icons/Hands - Show.png";
 import certIcon7 from "./cert-icons/Power Moves - Calendar.png"
 import certIcon8 from "./cert-icons/Women Power - Home Office.png";
+import certIcon9 from "./cert-icons/Cool Kids - Bust.png";
 
 export const navLinks = [
     {
@@ -150,6 +151,14 @@ export const certData = [
         id: "cert8",
         skills: ["backend cloud computing services", "react and firebase",],
         icon: certIcon8
+    },
+    {
+        title: "WordPress",
+        url: "https://www.udemy.com/certificate/UC-502c3760-7fb7-4b04-ad50-21c3373e5154/",
+        detail: "Udemy",
+        id: "cert9",
+        skills: ["WordPress"],
+        icon: certIcon9
     }
 
 ] as const;
