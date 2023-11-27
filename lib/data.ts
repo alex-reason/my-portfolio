@@ -52,14 +52,6 @@ export const projectsData = [
         id: "proj1",
     },
     {
-        title: "Sticky notes: project tracker",
-        description: "This project is inspired by the software I use as a paralegal. It uses React, firebase, and SASS. I think the UI/UX of the software we use at work is very lacking. I am hoping to improve it enough for my colleagues to use as well. The app uses firebase as a backend service.",
-        tags: ["react", "firebase", "authentication", "project management", "SASS/SCSS"],
-        imageUrl: proj2Pg5,
-        url: "https://github.com/alex-reason/sticky-notes",
-        id: "proj2"
-    },
-    {
         title: "cozy videos: youtube inspired app",
         description: "This app attempts to recreate certain aspects of Youtube. It uses firebase and youtube api with React. The homepage displays a certain number of videos. This project is based on a NetNinja tutorial. It was one of my first attempts with firebase, and it was challenging but fun.",
         tags: ["react", "firebase", "api",],
