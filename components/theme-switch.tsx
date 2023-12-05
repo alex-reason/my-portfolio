@@ -37,7 +37,9 @@ export default function ThemeSwitch() {
             scale-[0.9] hover:scale-[1] active:scale-[.95] transition-all
             border border-opacity-40 border-[#fcfcfc] rounded-full
             bg-[#fcfcfc] bg-opacity-80 shadow-2xl
-            w-[3rem] h-[3rem] dark:bg-gray-800">
+            w-[3rem] h-[3rem] dark:bg-gray-800"
+            aria-label="Aria Change Dark/Light mode"
+            >
             {theme === "light" ? <BsSun /> : <BsMoonStars />}
         </button>
     )

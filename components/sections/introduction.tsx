@@ -2,7 +2,6 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { BsArrowRight } from "react-icons/bs";
-import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
 import { useActiveSecContext } from "@/context/active-sec-context";
 import { useSectionInView } from "@/lib/hooks";
@@ -53,21 +52,31 @@ export default function Introduction() {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.1 }}
                 >
-                    <Button url="#contact" type="primary" onClick={() => handleLink("Contact")}>
+                    <Button
+                        url="#contact"
+                        type="primary"
+                        onClick={() => handleLink("Contact")}
+                        ariaLabel="go to contact form"
+                    >
                         Contact me
                         <BsArrowRight />{" "}
                     </Button>
-{/* 
-                    <Button url="/" type="secondary">
-                        Download CV
-                        <HiDownload />{" "}
-                    </Button> */}
 
-                    <Button url="https://www.linkedin.com/in/alexandra-reasonda/" type="minor" target="_blank">
+                    <Button
+                        url="https://www.linkedin.com/in/alexandra-reasonda/"
+                        type="minor"
+                        target="_blank"
+                        ariaLabel="new tab to my linkedin page"
+                    >
                         <FaLinkedin />
                     </Button>
 
-                    <Button url="https://github.com/alex-reason" type="minor" target="_blank">
+                    <Button
+                        url="https://github.com/alex-reason"
+                        type="minor"
+                        target="_blank"
+                        ariaLabel="new tab to my github page"
+                    >
                         <FaGithubSquare />
                     </Button>
                 </motion.div>

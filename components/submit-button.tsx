@@ -10,6 +10,7 @@ export default function SubmitButton() {
             className={buttonClassName}
             type="submit"
             disabled={pending}
+            aria-label="Aria Submit"
         >
             {
                 pending ?
