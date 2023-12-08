@@ -4,7 +4,7 @@ import proj1Pg3 from "./portfolio-details/portfolio1/proj1-pg3.png";
 import proj2Pg5 from "./portfolio-details/portfolio2/proj2-pg5.png";
 import proj3Pg1 from "./portfolio-details/portfolio3/proj3-pg1.png";
 import proj5Pg1 from "./portfolio-details/portfolio5/proj5-pg1.png";
-import proj6Pg1 from "./portfolio-details/portfolio6/proj6-pg1.png";
+import proj6Pg3 from "./portfolio-details/portfolio6/proj6-pg3.png";
 import certIcon1 from "./cert-icons/hands-phone.png";
 import certIcon2 from "./cert-icons/hands-phone-2.png";
 import certIcon3 from "./cert-icons/hands-folder.png"
@@ -69,9 +69,9 @@ export const projectsData = [
     },
     {
         title: "this portfolio site",
-        description: "This responsive portfolio website was created with react, Next.js 13, typescript, tailwind css, and vercel.",
+        description: "This responsive and accessible portfolio website was created with react, Next.js 13, typescript, tailwind css, and vercel",
         tags: ["react", "Next.js", "version control", "tailwind css", "typescript"],
-        imageUrl: proj6Pg1,
+        imageUrl: proj6Pg3,
         url: "https://portfolio-git-master-alexreason.vercel.app/",
         id: "proj5"
     },
