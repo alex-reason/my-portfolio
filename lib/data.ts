@@ -182,7 +182,7 @@ export const experienceData = [
         id: "experience1",
         label: "Front end web developer / designer",
         minorContent: "Freelance",
-        date: "September 2023 - present",
+        date: "December 2023 - present",
         content: [
             "Develops responsive websites and applications",
             "Designs websites that reflect the goals of organizations using wireframes, sitemaps and mockups via Figma",
