@@ -1,7 +1,6 @@
 import React from "react";
-import { BiTask, BiBriefcase, BiBookContent } from "react-icons/bi";
+import { BiTask, BiBriefcase, BiBookContent, BiCodeAlt } from "react-icons/bi";
 import proj1Pg3 from "./portfolio-details/portfolio1/proj1-pg3.png";
-import proj2Pg5 from "./portfolio-details/portfolio2/proj2-pg5.png";
 import proj3Pg1 from "./portfolio-details/portfolio3/proj3-pg1.png";
 import proj5Pg1 from "./portfolio-details/portfolio5/proj5-pg1.png";
 import proj6Pg3 from "./portfolio-details/portfolio6/proj6-pg3.png";
@@ -50,6 +49,7 @@ export const projectsData = [
         imageUrl: proj1Pg3,
         url: "https://fitness-tracker-ffa4d.web.app/",
         id: "proj1",
+        code: ""
     },
     {
         title: "cozy videos: youtube inspired app",
@@ -57,7 +57,8 @@ export const projectsData = [
         tags: ["react", "firebase", "api",],
         imageUrl: proj3Pg1,
         url: "https://willowy-clafoutis-50448b.netlify.app/",
-        id: "proj3"
+        id: "proj3",
+        code: ""
     },
     {
         title: "alternative portfolio",
@@ -65,15 +66,17 @@ export const projectsData = [
         tags: ["react", "Next.js", "version control", "SASS/SCSS"],
         imageUrl: proj5Pg1,
         url: "https://portfolio-git-master-alexreason.vercel.app/",
-        id: "proj4"
+        id: "proj4",
+        code: ""
     },
     {
         title: "this portfolio site",
         description: "This responsive and accessible portfolio website was created with react, Next.js 13, typescript, tailwind css, and vercel",
         tags: ["react", "Next.js", "version control", "tailwind css", "typescript"],
         imageUrl: proj6Pg3,
-        url: "https://portfolio-git-master-alexreason.vercel.app/",
-        id: "proj5"
+        url: "https://alex-reason.vercel.app/",
+        id: "proj5",
+        code: "https://github.com/alex-reason/my-portfolio"
     },
 ] as const;
 
@@ -177,6 +180,18 @@ export const skillsData = [
 export const experienceData = [
     {
         id: "experience1",
+        label: "Front end web developer / designer",
+        minorContent: "Freelance",
+        date: "September 2023 - present",
+        content: [
+            "Develops responsive websites and applications",
+            "Designs websites that reflect the goals of organizations using wireframes, sitemaps and mockups via Figma",
+            "Addresses complex problems regarding accessibility, interactivity, and performance via testing and version controls"
+        ],
+        icon: React.createElement(BiCodeAlt)
+    },
+    {
+        id: "experience2",
         label: "Paralegal",
         minorContent: "Tancinco Law PC",
         date: "September 2020 - present",
@@ -189,7 +204,7 @@ export const experienceData = [
         icon: React.createElement(BiBriefcase)
     },
     {
-        id: "experience2",
+        id: "experience3",
         label: "Legal Assistant",
         minorContent: "Tancinco Law PC",
         date: "November 2018 - March 2020",
@@ -202,7 +217,7 @@ export const experienceData = [
         icon: React.createElement(BiTask)
     },
     {
-        id: "experience3",
+        id: "experience4",
         label: "Coordinator",
         minorContent: "Kwan Academy and Music",
         date: "April 2018 - March 2020",
