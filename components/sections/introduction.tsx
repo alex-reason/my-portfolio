@@ -1,7 +1,6 @@
 "use client"
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { BsArrowRight } from "react-icons/bs";
 import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
 import { useActiveSecContext } from "@/context/active-sec-context";
 import { useSectionInView } from "@/lib/hooks";
@@ -59,7 +58,6 @@ export default function Introduction() {
                         ariaLabel="go to contact form"
                     >
                         Contact me
-                        <BsArrowRight />{" "}
                     </Button>
 
                     <Button
