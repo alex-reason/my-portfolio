@@ -19,7 +19,7 @@ export default function About() {
         >
             <SectionHeading>about me</SectionHeading>
             <p className={pClassName}>
-                I like to develop websites using <span className="font-medium">React, JS, and SASS.</span> I have several certifications in <span className="font-bold">front-end web development, UI/UX, Responsive Web design, and Modern React.</span>
+                I like to develop websites using <span className="font-medium">React, JS, Next.js, and SASS.</span> I have several certifications in <span className="font-bold">front-end web development, UI/UX, Responsive Web design, and Modern React.</span>
             </p>
             <p className={pClassName}>
                 I love learning foreign and coding languages. I am <span className="font-medium"> fluent in</span><span className="font-bold"> English and Tagalog </span>(Filipino), and I have upper-intermediate <span className="font-medium"> proficiency in </span><span className="font-bold">French and Japanese.</span> I am hoping to learn more languages!
