@@ -42,15 +42,15 @@ export const navLinks = [
 ] as const;
 
 export const projectsData = [
-    {
-        title: "workout tracker",
-        description: "A fitness tracker app inspired by the goal of my friends to be more active. The app uses react, context, and firebase as a Baas/backend service. Users can signup and login via firebase authentication",
-        tags: ["react", "firebase", "authentication"],
-        imageUrl: proj1Pg3,
-        url: "https://fitness-tracker-ffa4d.web.app/",
-        id: "proj1",
-        code: ""
-    },
+    // {
+    //     title: "workout tracker",
+    //     description: "A fitness tracker app inspired by the goal of my friends to be more active. The app uses react, context, and firebase as a Baas/backend service. Users can signup and login via firebase authentication",
+    //     tags: ["react", "firebase", "authentication"],
+    //     imageUrl: proj1Pg3,
+    //     url: "https://fitness-tracker-ffa4d.web.app/",
+    //     id: "proj1",
+    //     code: ""
+    // },
     {
         title: "cozy videos: youtube inspired app",
         description: "This app attempts to recreate certain aspects of Youtube. It uses firebase and youtube api with React. The homepage displays a certain number of videos. This project is based on a NetNinja tutorial. It was one of my first attempts with firebase, and it was challenging but fun.",
