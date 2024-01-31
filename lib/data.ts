@@ -1,6 +1,6 @@
 import React from "react";
 import { BiTask, BiBriefcase, BiBookContent, BiCodeAlt } from "react-icons/bi";
-import proj1Pg3 from "./portfolio-details/portfolio1/proj1-pg3.png";
+import proj1Design from "./portfolio-details/portfolio1/proj1-design.png";
 import proj3Pg1 from "./portfolio-details/portfolio3/proj3-pg1.png";
 import proj5Pg1 from "./portfolio-details/portfolio5/proj5-pg1.png";
 import proj6Pg3 from "./portfolio-details/portfolio6/proj6-pg3.png";
@@ -42,15 +42,15 @@ export const navLinks = [
 ] as const;
 
 export const projectsData = [
-    // {
-    //     title: "workout tracker",
-    //     description: "A fitness tracker app inspired by the goal of my friends to be more active. The app uses react, context, and firebase as a Baas/backend service. Users can signup and login via firebase authentication",
-    //     tags: ["react", "firebase", "authentication"],
-    //     imageUrl: proj1Pg3,
-    //     url: "https://fitness-tracker-ffa4d.web.app/",
-    //     id: "proj1",
-    //     code: ""
-    // },
+    {
+        title: "workout tracker",
+        description: "A fitness tracker app inspired by the goal of my friends to be more active. The app uses react, context, and firebase as a Baas/backend service. Users can signup and login via firebase authentication",
+        tags: ["react", "firebase", "authentication"],
+        imageUrl: proj1Design,
+        url: "https://github.com/alex-reason/squadg",
+        id: "proj1",
+        code: ""
+    },
     {
         title: "cozy videos: youtube inspired app",
         description: "This app attempts to recreate certain aspects of Youtube. It uses firebase and youtube api with React. The homepage displays a certain number of videos. This project is based on a NetNinja tutorial. It was one of my first attempts with firebase, and it was challenging but fun.",
@@ -74,7 +74,7 @@ export const projectsData = [
         description: "This responsive and accessible portfolio website was created with react, Next.js 13, typescript, tailwind css, and vercel",
         tags: ["react", "Next.js", "version control", "tailwind css", "typescript"],
         imageUrl: proj6Pg3,
-        url: "https://alex-reason.vercel.app/",
+        url: "https://github.com/alex-reason/my-portfolio",
         id: "proj5",
         code: "https://github.com/alex-reason/my-portfolio"
     },
