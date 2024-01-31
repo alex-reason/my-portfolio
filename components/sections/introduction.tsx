@@ -40,7 +40,7 @@ export default function Introduction() {
                 >
                     Hello, I&apos;m{" "}
                     <span className="font-bold">Alexandra.</span>{" "}
-                    <span className="font-extrabold block">Frontend web developer.</span>{" "}
+                    <span className="font-extrabold block">Frontend web developer and designer.</span>{" "}
                     <span>I create sites and apps with</span>{" "}
                     <span className="underline cursor-pointer"><a href="#skills">React, Next.js, typescript, and more.</a></span>
                 </motion.h1>
