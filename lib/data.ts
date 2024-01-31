@@ -71,7 +71,7 @@ export const projectsData = [
     },
     {
         title: "this portfolio site",
-        description: "This responsive and accessible portfolio website was created with react, Next.js 13, typescript, tailwind css, and vercel",
+        description: "This responsive and accessible portfolio website was created with react, Next.js 13, typescript, tailwind css, and vercel; inspired by a youtube video by ByteGrad",
         tags: ["react", "Next.js", "version control", "tailwind css", "typescript"],
         imageUrl: proj6Pg3,
         url: "https://github.com/alex-reason/my-portfolio",
