@@ -44,8 +44,8 @@ export const navLinks = [
 export const projectsData = [
     {
         title: "workout tracker",
-        description: "A fitness tracker app inspired by the goal of my friends to be more active. The app uses react, context, and firebase as a Baas/backend service. Users can signup and login via firebase authentication; designed using wireframing, lofi and hifi versions with figma",
-        tags: ["figma", "responsive", "react", "firebase", "authentication"],
+        description: "A Nextjs fitness tracker app inspired by the goal of my friends to be more active. The app uses TailwindCSS, react, several APIs such as Clerk, and MongoDB as a Baas/backend service. Users can signup and login via firebase authentication; designed using wireframing, lofi and hifi versions with figma",
+        tags: ["figma", "responsive", "react", "tailwindCSS", "backend", "MongoDB", "Nextjs", "authentication"],
         imageUrl: proj1Design,
         url: "https://github.com/alex-reason/squadg",
         id: "proj1",
