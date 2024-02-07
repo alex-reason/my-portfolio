@@ -4,7 +4,7 @@ export default function Footer() {
     return (
         <footer className="text-center flex flex-col items-center justify-center m-auto p-4 w-[80%] text-gray-600 dark:text-gray-400">
             <small>
-                &copy; 2023 Alexandra. All Rights Reserved.
+                &copy; 2024 Alexandra. All Rights Reserved.
             </small>
             <div className="flex gap-2 underline text-[.8rem] mb-2">
                 <Link href="https://www.linkedin.com/in/alexandra-reasonda" target="_blank">
