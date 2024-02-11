@@ -61,15 +61,6 @@ export const projectsData = [
         code: ""
     },
     {
-        title: "alternative portfolio",
-        description: "My alternative responsive portfolio website was created with react, Next.js, and vercel. The code is on github, and I regularly update, manage changes, do version control via Git. Routing is done via Next.js 13 App Router. The styling uses SASS/SCSS and animations.",
-        tags: ["react", "Next.js", "version control", "SASS/SCSS"],
-        imageUrl: proj5Pg1,
-        url: "https://portfolio-git-master-alexreason.vercel.app/",
-        id: "proj4",
-        code: ""
-    },
-    {
         title: "this portfolio site",
         description: "This responsive and accessible portfolio website was created with react, Next.js 13, typescript, tailwind css, and vercel; inspired by a youtube video by ByteGrad",
         tags: ["react", "Next.js", "version control", "tailwind css", "typescript"],

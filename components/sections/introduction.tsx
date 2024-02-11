@@ -19,6 +19,7 @@ export default function Introduction() {
     return (
         <section className="mb-28 max-w-[50rem] text-center sm:mb-0 z-[90]" id="home" ref={ref}>
             <div className="flex flex-col items-center justify-center">
+               
                 <motion.div
                     initial={{ opacity: 0, scale: 0 }}
                     animate={{ opacity: 1, scale: 1 }}
