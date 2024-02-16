@@ -47,7 +47,7 @@ export const projectsData = [
         description: "A Nextjs fitness tracker app inspired by the goal of my friends to be more active. The app uses TailwindCSS, react, several APIs such as Clerk, and MongoDB as a Baas/backend service. Users can signup and login via firebase authentication; designed using wireframing, lofi and hifi versions with figma",
         tags: ["figma", "responsive", "react", "tailwindCSS", "backend", "MongoDB", "Nextjs", "authentication"],
         imageUrl: proj1Design,
-        url: "https://github.com/alex-reason/squadg",
+        url: "https://squadg.vercel.app/",
         id: "proj1",
         code: ""
     },
