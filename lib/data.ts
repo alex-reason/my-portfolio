@@ -2,7 +2,7 @@ import React from "react";
 import { BiTask, BiBriefcase, BiBookContent, BiCodeAlt } from "react-icons/bi";
 import proj1Design from "./portfolio-details/portfolio1/proj1-design.png";
 import proj3Pg1 from "./portfolio-details/portfolio3/proj3-pg1.png";
-import proj5Pg1 from "./portfolio-details/portfolio5/proj5-pg1.png";
+import proj7Pg1 from "./portfolio-details/portfolio7/proj7-pg1.png";
 import proj6Pg3 from "./portfolio-details/portfolio6/proj6-pg3.png";
 import certIcon1 from "./cert-icons/hands-phone.png";
 import certIcon2 from "./cert-icons/hands-phone-2.png";
@@ -52,13 +52,22 @@ export const projectsData = [
         code: ""
     },
     {
+        title: "Mai Brunch: Restaurant Website",
+        description: "A restaurant website with a simple but responsive design; there is a reservation form connected to a MongoDB database",
+        tags: ["react", "MongoDB", "backend",],
+        imageUrl: proj7Pg1,
+        url: "https://mai-brunch.vercel.app/",
+        id: "proj2",
+        code: "https://github.com/alex-reason/mai-brunch"
+    },
+    {
         title: "cozy videos: youtube inspired app",
         description: "This app attempts to recreate certain aspects of Youtube. It uses firebase and youtube api with React. The homepage displays a certain number of videos. This project is based on a NetNinja tutorial. It was one of my first attempts with firebase, and it was challenging but fun.",
         tags: ["react", "firebase", "api",],
         imageUrl: proj3Pg1,
         url: "https://willowy-clafoutis-50448b.netlify.app/",
         id: "proj3",
-        code: ""
+        code: "https://github.com/alex-reason/youtube-clone/tree/master"
     },
     {
         title: "this portfolio site",
@@ -66,7 +75,7 @@ export const projectsData = [
         tags: ["react", "Next.js", "version control", "tailwind css", "typescript"],
         imageUrl: proj6Pg3,
         url: "https://github.com/alex-reason/my-portfolio",
-        id: "proj5",
+        id: "proj4",
         code: "https://github.com/alex-reason/my-portfolio"
     },
 ] as const;
