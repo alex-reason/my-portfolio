@@ -53,7 +53,7 @@ export const projectsData = [
     },
     {
         title: "Mai Brunch: Restaurant Website",
-        description: "A restaurant website with a simple but responsive design; there is a reservation form connected to a MongoDB database",
+        description: "A single page restaurant website with a simple but responsive design; there is a reservation form connected to a MongoDB database",
         tags: ["react", "MongoDB", "backend", "Nextjs"],
         imageUrl: proj7Pg1,
         url: "https://mai-brunch.vercel.app/",
