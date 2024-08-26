@@ -26,8 +26,8 @@ export default function Introduction() {
                     transition={{ type: "tween", duration: 0.2 }}
                 >
                     <Image
-                        src="https://source.unsplash.com/YdAqiUkUoWA"
-                        alt="flower from unsplash" width="100"
+                        src="https://firebasestorage.googleapis.com/v0/b/finance-tracker-68266.appspot.com/o/for%20projects%2Fsaffu-Ct1Mx5OTn9A-unsplash.jpg?alt=media&token=4a815513-138c-4c41-a02e-a071e0e08669"
+                        alt="Photo by Saffu on Unsplash" width="100"
                         height="100"
                         quality="95"
                         className="h-24 w-24 rounded-full border-white object-cover"
