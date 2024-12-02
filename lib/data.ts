@@ -13,7 +13,7 @@ import certIcon6 from "./cert-icons/Hands - Show.png";
 import certIcon7 from "./cert-icons/Power Moves - Calendar.png"
 import certIcon8 from "./cert-icons/Women Power - Home Office.png";
 import certIcon9 from "./cert-icons/Cool Kids - Bust.png";
-import certIcon10 from ".cert-icons/Hands - Book.png";
+import certIcon10 from "./cert-icons/Hands - Book.png"
 
 export const navLinks = [
     {
@@ -25,16 +25,17 @@ export const navLinks = [
         hash: "#about"
     },
     {
-        name: "Projects",
-        hash: "#projects"
+        name: "Competencies",
+        hash: "#competencies"
     },
+
     {
         name: "Skills",
         hash: "#skills"
     },
     {
-        name: "Competencies",
-        hash: "#competencies"
+        name: "Projects",
+        hash: "#projects"
     },
     {
         name: "Contact",

@@ -13,11 +13,12 @@ export default function Home() {
       <Divider />
       <About />
       <Divider />
-      <Projects />
+      <Competencies />
+    
       <Divider />
       <Skills />
       <Divider />
-      <Competencies />
+      <Projects />
       <Divider />
       <Contact />
     </main>
