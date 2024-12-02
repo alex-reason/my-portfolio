@@ -13,6 +13,7 @@ import certIcon6 from "./cert-icons/Hands - Show.png";
 import certIcon7 from "./cert-icons/Power Moves - Calendar.png"
 import certIcon8 from "./cert-icons/Women Power - Home Office.png";
 import certIcon9 from "./cert-icons/Cool Kids - Bust.png";
+import certIcon10 from ".cert-icons/Hands - Book.png";
 
 export const navLinks = [
     {
@@ -154,7 +155,15 @@ export const certData = [
         id: "cert9",
         skills: ["WordPress"],
         icon: certIcon9
-    }
+    },
+    {
+        title: "UX Design",
+        url: "https://coursera.org/share/aa60ea1be96c7b2c6b9363d8602b5387",
+        detail: "Google",
+        id: "cert10",
+        skills: ["UX research, Web Design, Research"],
+        icon: certIcon10
+    },
 
 ] as const;
 
