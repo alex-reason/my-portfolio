@@ -54,15 +54,6 @@ export const projectsData = [
         code: ""
     },
     {
-        title: "Mai Brunch: Restaurant Website",
-        description: "A single page restaurant website with a simple but responsive design; there is a reservation form connected to a MongoDB database",
-        tags: ["react", "MongoDB", "backend", "Nextjs"],
-        imageUrl: proj7Pg1,
-        url: "https://mai-brunch.vercel.app/",
-        id: "proj2",
-        code: "https://github.com/alex-reason/mai-brunch"
-    },
-    {
         title: "cozy videos: youtube inspired app",
         description: "This app attempts to recreate certain aspects of Youtube. It uses firebase and youtube api with React. The homepage displays a certain number of videos. This project is based on a NetNinja tutorial. It was one of my first attempts with firebase, and it was challenging but fun.",
         tags: ["react", "firebase", "api",],
